@@ -1,0 +1,8 @@
+_BASE_: "VISION_stage2.yaml"
+MODEL:
+  DLA:
+    PRETRAINED: False
+  WEIGHTS: "./output/vision_local_stage1/model_final.pth"
+SOLVER:
+  CHECKPOINT_PERIOD: 500
+OUTPUT_DIR: "./output/vision_local_stage2"

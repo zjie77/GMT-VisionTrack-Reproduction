@@ -1,0 +1,6 @@
+_BASE_: "VISION_test.yaml"
+MODEL:
+  DLA:
+    PRETRAINED: False
+  WEIGHTS: "./output/vision_local_stage2/model_final.pth"
+OUTPUT_DIR: "./output/vision_local_test"
